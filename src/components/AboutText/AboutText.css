@@ -12,10 +12,8 @@
     font-size: 25px;
 }
     @media (max-width: 768px){
-        .footer-col{
-            margin: 0 0 0 0;
-            max-width: 100%;
-            width: 100%;
+        .text-section{
+            flex-direction: column;
         }
         .footer-logo-col{
             max-width: 100%;

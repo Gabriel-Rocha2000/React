@@ -15,10 +15,12 @@ function Footer (){
     return (
         <footer>
             <div className="container">
-               <div className='d-flex jc-space-between'>
+               <div className='d-flex jc-space-between mobile-fd-column'>
+                <div></div>
                 <div className='footer-logo-col'>
-                <img src={Logo} className='footer-logo'/>
+                <img src={Logo} className='footer-logo'/>                
                 <p className='grey-1-color'>A escola que prepara você para as profissões em alta no mercado de trabalho.</p>
+                
                 <div className='d-flex social-links jc-space-between'>
                     <a href="https://www.linkedin.com/in/gabriel-g-rocha/" target='_blank'>
                      <img src={FacebookIcon} alt="" /></a>

@@ -40,7 +40,7 @@ footer a:hover {
   color: #0c70f2;
 }
 
-footer .social-link a {
+footer .social-links a {
   margin: 25px 40px 0 0;
 }
 
@@ -55,13 +55,15 @@ footer .social-link a {
 
 /* Responsividade */
 @media (max-width: 768px) {
-    
+   
   .footer-col {
     margin: 0 0 0 0;
     max-width: 100%;
     width: 100%;
   }
   .footer-logo-col {
+    display: flex;
+    flex-direction: column;
     max-width: 100%;
     width: 100%;
   }

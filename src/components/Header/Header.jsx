@@ -18,7 +18,7 @@ function Header (){
                     <Button buttonStyle="secondary" onClick={() => setIsOpen(!isOpen)} >Menu</Button>
                    </div>
                    <nav className={`nav ${isOpen ? 'open' : ''}`}>
-                    <Button buttonStyle="unstyled" className="mobile-close">
+                    <Button buttonStyle="unstyled" className="mobile-menu close-btn" onClick={() => setIsOpen(!isOpen)}>
                         X
                     </Button>
                     <ul className="d-flex">
