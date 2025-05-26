@@ -5,7 +5,7 @@ import Button from '../Button/Button'
 function Hero() {
   return (
     <div className='hero d-flex al-center'>
-        <div className='hero-text'>
+        <div className='hero-text'>            
             <h1 className='hero-text'>Let Your Home Be Unique </h1>
             <p>There are many variations of the passages oflorem Ipsum fromavailable, majority.</p>
             <Link>
