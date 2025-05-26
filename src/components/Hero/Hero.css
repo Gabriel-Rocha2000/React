@@ -1,5 +1,5 @@
 .hero{
-    background-image: url(hero.svg);
+    background-image: url('/hero.svg');
     background-position: center;
     background-size: cover;
     border-radius: 70px;
